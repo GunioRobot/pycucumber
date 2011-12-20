@@ -12,7 +12,7 @@ Feature:
       And 0 tests should be unimplemented
       And 0 tests should be skipped
       And 0 tests should be ambiguous
-    
+
     More Examples:
       | feature | rule | test_succeed | pass | pass | fail | fail | uimp | uimp | skip | skip | ambig | ambig |
       | helper/features/fail_first_given.feature | helper/rules/simple.py | fail | 0 | pass | 1 | fail | 0 | be unimplemented | 7 | be skipped | 0 | be ambiguous |
